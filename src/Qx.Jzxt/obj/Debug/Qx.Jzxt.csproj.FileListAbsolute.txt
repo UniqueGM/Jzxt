@@ -1,0 +1,17 @@
+D:\奖助\src\Qx.Jzxt\bin\Debug\Qx.Jzxt.dll.config
+D:\奖助\src\Qx.Jzxt\bin\Debug\Qx.Jzxt.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\Qx.Jzxt.pdb
+D:\奖助\src\Qx.Jzxt\bin\Debug\EntityFramework.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\EntityFramework.SqlServer.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\Qx.Tools.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\System.Web.Mvc.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\Newtonsoft.Json.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\EntityFramework.xml
+D:\奖助\src\Qx.Jzxt\bin\Debug\EntityFramework.SqlServer.xml
+D:\奖助\src\Qx.Jzxt\bin\Debug\System.Web.Mvc.xml
+D:\奖助\src\Qx.Jzxt\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\奖助\src\Qx.Jzxt\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\奖助\src\Qx.Jzxt\obj\Debug\Qx.Jzxt.dll
+D:\奖助\src\Qx.Jzxt\obj\Debug\Qx.Jzxt.pdb
+D:\奖助\src\Qx.Jzxt\bin\Debug\Qx.Org.dll
+D:\奖助\src\Qx.Jzxt\obj\Debug\Qx.Jzxt.csprojResolveAssemblyReference.cache

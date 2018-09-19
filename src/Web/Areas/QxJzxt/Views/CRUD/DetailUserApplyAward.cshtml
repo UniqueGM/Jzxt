@@ -1,0 +1,48 @@
+﻿
+@using Qx.Tools.Web.Mvc.Html
+@model Web.Areas.QxJzxt.ViewModels.CRUD.DetailUserApplyAward_M
+
+@{
+    Layout = ViewData["Layout"].ToString();
+}
+
+@Html.BeginGroup("基本信息", 1)
+@foreach (var item in Model.BaseInfoList)
+{
+    if (item.infodataytype == "001")//文本
+    {
+        <div class="form-group col-lg-6">
+            <label>@item.infoname</label>
+            <input class="form-control" id="item_attrname" name="attrValue" placeholder="" type="text" value="@item.value" readonly="readonly">
+            <p class="help-block">&nbsp;</p>
+        </div>
+    }
+    if (item.infodataytype == "002")//文本域
+    {
+        <div class="form-group col-lg-12">
+            <label>@item.infoname</label>
+            <textarea class="form-control" rows="3" name="attrValue" style="height: 230px" readonly="readonly">@item.value</textarea>
+            <p class="help-block">&nbsp;</p>
+        </div>
+    }
+    if (item.infodataytype == "003")//时间，在这里也显示在文本框里面
+    {
+        <div class="form-group col-lg-6">
+            <label>@item.infoname</label>
+            <input class="form-control" id="item_attrname" name="attrValue" placeholder="" type="text" value="@item.value" readonly="readonly">
+            <p class="help-block">&nbsp;</p>
+        </div>
+    }
+}
+@Html.EndGroup()
+
+@Html.BeginGroup("材料", 1)
+@foreach (var item in Model.UserAwardMaterialList)
+{
+    <div class="form-group col-lg-6">
+        <label>@item.typename</label>
+        <a href="/QxJzxt/CRUD/DetailMaterialApply?id=@item.usermaterialid">@item.material_name</a>
+        <p class="help-block">&nbsp;</p>
+    </div>
+}
+@Html.EndGroup()
